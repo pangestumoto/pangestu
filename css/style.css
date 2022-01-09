@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+.navbar-light .navbar-brand {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav .navbar-nav .nav-link{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 2vw;
+}
+
+.carousel-item img{
+    opacity: 0.7;
+}
+
+.carousel-caption p{
+    padding-bottom: 5rem;
+}
+
+#product{
+    margin-top: -6rem;
+}
+
+@media screen and (max-width: 465px){
+    #product{
+        margin-top: -3rem;
+    }
+}
+
+.card img{
+    margin-top: 1rem;
+    width: 200px;
+    height: 200px;
+}
+
+.card-body h5{
+    border-top: 1px solid #000;
+}
+
+#doublestory{
+    background-image: url(../img/doublestory.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 850px){
+    #doublestory{
+        background-position: left;
+    }
+}
+
+.list-group-item{
+    background-color: #0000;
+    color: #fff;
+}
+
+#weddingpl .list-group-item{
+    background-color: #fff;
+    color: #000;
+}
+
+#preweddingpl{
+    background-image: url(../img/preweddingpl.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;  
+}
+
+#engagementpl{
+    background-image: url(../img/engagementpl.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;  
+}
