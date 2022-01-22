@@ -78,7 +78,6 @@ nav .navbar-nav .nav-link{
 
 #weddingpl .list-group-item{
     background-color: #fff;
-
     color: #000;
 }
 
@@ -89,15 +88,17 @@ nav .navbar-nav .nav-link{
     background-repeat:  no-repeat;  
 }
 
-#engagementpl{
-    background-image: url(../img/engagementpl.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat:  no-repeat;  
+#engagementpl ul li{
+    color: #000;
 }
 
 footer {
     background-color: silver;
+}
+
+.imgsoc{
+    width: 60px;
+    height: 60px;
 }
 
 a {
